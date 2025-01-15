@@ -1,7 +1,7 @@
 
-# CommerceSphere
+# Commerce Sphere
 
-**CommerceSphere** is a cutting-edge e-commerce microservice ecosystem built using PHP. It is designed to provide scalable, flexible, and high-performance solutions for online stores. With microservices architecture at its core, each component operates autonomously, enabling easy integration, testing, and scaling.
+**Commerce Sphere** is a cutting-edge e-commerce microservice ecosystem built using PHP. It is designed to provide scalable, flexible, and high-performance solutions for online stores. With microservices architecture at its core, each component operates autonomously, enabling easy integration, testing, and scaling.
 
 ## Features
 
@@ -24,7 +24,7 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/CommerceSphere.git
+   git clone https://github.com/chevp/commerce-sphere.git
    cd CommerceSphere
    ```
 
@@ -70,4 +70,4 @@ We welcome contributions to **CommerceSphere**! If you'd like to improve the eco
 
 ## License
 
-**CommerceSphere** is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+**Commerce Sphere** is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
