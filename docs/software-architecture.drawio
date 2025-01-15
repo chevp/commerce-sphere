@@ -1,0 +1,19 @@
+<mxfile host="65bd71144e">
+    <diagram id="G_IeB_sGsdrLeSN3nGMD" name="Page-1">
+        <mxGraphModel dx="886" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" value="rest-api" style="edgeStyle=none;html=1;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="Browser&lt;br&gt;(Web/Mobile)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="80" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="json-server" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="80" width="100" height="50" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

@@ -1,0 +1,32 @@
+### Sign in
+POST https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=YOUR_API_KEY
+Content-Type: application/json
+
+{
+  "email": "user@example.com",
+  "password": "your-password",
+  "returnSecureToken": true
+}
+
+### GET request to create a document in Firestore
+GET https://firestore.googleapis.com/v1/projects/scoe-bc4d1/databases/(default)/documents/components/c7cb65fb-117f-4eb9-817f-c89cdc72d178 HTTP/1.0
+Content-Type: application/json
+Authorization: Bearer YOUR_OAUTH_ACCESS_TOKEN
+
+### POST request to create a document in Firestore
+POST https://firestore.googleapis.com/v1/projects/scoe-bc4d1/databases/(default)/documents/components HTTP/1.0
+Content-Type: application/json
+
+{
+  "fields": {
+    "name": {
+      "stringValue": "John Doe"
+    },
+    "age": {
+      "integerValue": 30
+    },
+    "email": {
+      "stringValue": "johndoe@example.com"
+    }
+  }
+}

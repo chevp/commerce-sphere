@@ -1,0 +1,135 @@
+{
+  "companies": [
+    {
+      "id": "c7cb65fb-117f-4eb9-817f-c89cdc72d178",
+      "name": "Company XYZ",
+      "branding": {
+        "logoUrl": "https://companyxyz.com/logo.png",
+        "themeColor": "#1e90ff",
+        "primaryFont": "Arial, sans-serif",
+        "secondaryFont": "Georgia, serif",
+        "faviconUrl": "https://companyxyz.com/favicon.ico"
+      },
+      "features": {
+        "enableCustomReports": true,
+        "enableDiscounts": false,
+        "enableInventoryManagement": true,
+        "useAdvancedAnalytics": true
+      },
+      "userRoles": {
+        "admin": ["create", "update", "delete", "view"],
+        "manager": ["update", "view"],
+        "employee": ["view"]
+      },
+      "companySettings": {
+        "currency": "USD",
+        "timezone": "America/New_York",
+        "language": "en",
+        "allowMultipleUsers": true,
+        "customerSupportContact": "support@companyxyz.com"
+      },
+      "apiEndpoints": {
+        "orderService": "https://api.companyxyz.com/orders",
+        "userService": "https://api.companyxyz.com/users",
+        "inventoryService": "https://api.companyxyz.com/inventory"
+      },
+      "active": true,
+      "created": "2022-01-01T12:00:00Z",
+      "modified": "2025-01-14T12:00:00Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "8e3772bf-3f20-44d5-b025-f1b4a05931e2",
+      "name": "peter",
+      "email": "some@otto.com",
+      "role": "admin",
+      "pswd": null,
+      "permissions": null,
+      "created": "2022-01-01T12:00:00Z",
+      "modified": "2022-01-01T12:00:00Z"
+    }
+  ],
+  "documents": [
+    {
+      "id": "23be042f-7917-4532-b367-a92d53def6ec",
+      "title": "Dokument 1",
+      "slug": "doc-1",
+      "content": "#title\nHello World",
+      "status": "draft",
+      "author_id": "8e3772bf-3f20-44d5-b025-f1b4a05931e2",
+      "group_id": "634a2f81-68b8-4028-a0a4-b008d402cda8",
+      "created": "2022-01-01T12:00:00Z",
+      "modified": "2022-01-01T12:00:00Z",
+      "medias": [
+        {
+          "id": "634a2f81-68b8-4028-a0a4-b008d402cda8",
+          "name": "doc1.pdf",
+          "type": "pdf"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "id": "634a2f81-68b8-4028-a0a4-b008d402cda8",
+      "type": "",
+      "data": "{}",
+      "created": "2022-01-01T12:00:00Z",
+      "modified": "2022-01-01T12:00:00Z",
+      "product_id": "634a2f81-68b8-4028-a0a4-b008d402cda8"
+    },
+    {
+      "id": "234a2f81-68b8-4028-a0a4-b008d402cda8",
+      "type": "specification",
+      "attributes": {
+        "screen_size": "6.5 inches",
+        "resolution": "1440 x 3200 pixels",
+        "processor": "Octa-core 3.2 GHz",
+        "battery": "4500 mAh"
+      },
+      "created": "2022-01-01T12:00:00Z",
+      "modified": "2022-01-01T12:00:00Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "634a2f81-68b8-4028-a0a4-b008d402cda8",
+      "name": "Produkt 1",
+      "description": "",
+      "price": null,
+      "availability": null,
+      "created": "2022-01-01T12:00:00Z",
+      "modified": "2022-01-01T12:00:00Z"
+    }
+  ],
+  "processes": [
+    {
+      "id": "634a2f81-68b8-4028-a0a4-b008d402cda8",
+      "name": "Publish Workflow",
+      "steps": "{}",
+      "status": "active",
+      "created": "2022-01-01T12:00:00Z",
+      "modified": "2022-01-01T12:00:00Z"
+    }
+  ],
+  "medias": [
+    {
+      "id": "634a2f81-68b8-4028-a0a4-b008d402cda8",
+      "file_name": "doc1.pdf",
+      "url": "http://path/to/file",
+      "type": "pdf",
+      "created": "2022-01-01T12:00:00Z",
+      "modified": "2022-01-01T12:00:00Z"
+    }
+  ],
+  "issues": [
+    {
+      "id": "634a2f81-68b8-4028-a0a4-b008d402cda8",
+      "type": "",
+      "data": "{}",
+      "created": "2022-01-01T12:00:00Z",
+      "modified": "2022-01-01T12:00:00Z"
+    }
+  ]
+}

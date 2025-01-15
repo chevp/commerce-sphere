@@ -1,0 +1,16 @@
+- id: 634a2f81-68b8-4028-a0a4-b008d402cda8
+  type: ""
+  data: "{}"
+  created: "2022-01-01T12:00:00Z"
+  modified: "2022-01-01T12:00:00Z"
+  product_id: 634a2f81-68b8-4028-a0a4-b008d402cda8
+
+- id: 234a2f81-68b8-4028-a0a4-b008d402cda8
+  type: specification
+  attributes:
+    screen_size: "6.5 inches"
+    resolution: "1440 x 3200 pixels"
+    processor: "Octa-core 3.2 GHz"
+    battery: "4500 mAh"
+  created: "2022-01-01T12:00:00Z"
+  modified: "2022-01-01T12:00:00Z"
