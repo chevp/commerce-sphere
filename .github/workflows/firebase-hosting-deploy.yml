@@ -1,30 +1,32 @@
-name: Deploy Angular App
+name: Deploy to Firebase Hosting on commit to main
 
 on:
   push:
-    paths:
-      - ".github/workflows/deploy-angular.yml"
+    branches:
+      - main  # Trigger deployment when there's a commit to the 'main' branch
 
 jobs:
-  deploy:
+  build_and_deploy:
     runs-on: ubuntu-latest
     steps:
+      # Step 1: Checkout the code
       - uses: actions/checkout@v4
-      - name: Set up Node.js
-        uses: actions/setup-node@v2
+
+      # Step 2: Set up Node.js (update to at least version 18.x)
+      - uses: actions/setup-node@v2
         with:
-          node-version: 18
-      - name: Install dependencies
-        run: |
+          node-version: '18'  # Ensure that Node.js version 18 or later is used
+
+      # Step 3: Install dependencies and build the Angular app in the correct directory
+      - run: |
           cd angular-app
           npm install
-      - name: Build Angular App
-        run: |
-          cd angular-app
-          npm run build -- --configuration production
-      - name: Deploy to Firebase Hosting
-        uses: FirebaseExtended/action-hosting-deploy@v0
+          ./node_modules/.bin/ng build --configuration production
+
+      # Step 4: Deploy to Firebase Hosting
+      - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
-          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_SCOE_8A318 }}
           channelId: live
+          projectId: scoe-8a318
