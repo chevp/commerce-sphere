@@ -34,7 +34,7 @@ import { MenuModule } from 'primeng/menu';
                         />
                     </g>
                 </svg>
-                <span>Commerce Sphere</span>
+                <span></span>
             </a>
         </div>
 

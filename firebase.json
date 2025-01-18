@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "angular-app/dist/angular-app/browser",
+    "public": "angular-app/dist/commerce-sphere/browser",
     "ignore": [
       "firebase.json",
       "**/.*",

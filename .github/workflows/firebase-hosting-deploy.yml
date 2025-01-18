@@ -17,7 +17,7 @@ jobs:
       - name: Install dependencies
         run: |
           cd angular-app
-          npm ci
+          npm install
       - name: Build Angular App
         run: |
           cd angular-app
