@@ -1,0 +1,24 @@
+### List Firebase Projects
+GET http://127.0.0.1:8080/v1/projects/scoe-bc4d1/databases/(default)/documents HTTP/1.1
+Authorization: Bearer YOUR_OAUTH_ACCESS_TOKEN
+
+### Request to Firestore Emulator
+GET http://localhost:8080/v1/projects/scoe-bc4d1/databases/(default)/documents/your-collection/pn5AkCQND2YoEosGExdE
+
+### POST request to create a document in Firestore Emulator
+POST http://localhost:8080/v1/projects/scoe-bc4d1/databases/(default)/documents/your-collection
+Content-Type: application/json
+
+{
+  "fields": {
+    "name": {
+      "stringValue": "John Doe"
+    },
+    "age": {
+      "integerValue": 30
+    },
+    "email": {
+      "stringValue": "johndoe@example.com"
+    }
+  }
+}

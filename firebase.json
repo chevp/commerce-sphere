@@ -1,0 +1,18 @@
+{
+  "hosting": {
+    "public": "apps/angular-app/dist/angular-app",
+    "rewrites": [
+      {
+        "source": "/api/**",
+        "function": "api"
+      },
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  },
+  "functions": {
+    "source": "apps/node-server"
+  }
+}
