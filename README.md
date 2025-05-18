@@ -1,7 +1,7 @@
 
 # Commerce Sphere
 
-**Commerce Sphere** is a cutting-edge e-commerce microservice ecosystem built using PHP. It is designed to provide scalable, flexible, and high-performance solutions for online stores. With microservices architecture at its core, each component operates autonomously, enabling easy integration, testing, and scaling.
+**Commerce Sphere** is a e-commerce microservice ecosystem built using PHP. It is designed to provide scalable, flexible, and high-performance solutions for online stores. With microservices architecture at its core, each component operates autonomously, enabling easy integration, testing, and scaling.
 
 ## Features
 
